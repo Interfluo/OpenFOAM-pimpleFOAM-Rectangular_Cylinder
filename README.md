@@ -11,6 +11,5 @@ mesh specified using blockMesh only
 **parallel run**
 - blockMesh
 - decomposePar
-- mpirun 
-- np 6 pimpleFoam 
+- mpirun -np 6 pimpleFoam -parallel
 
