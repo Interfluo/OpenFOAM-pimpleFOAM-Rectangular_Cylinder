@@ -7,9 +7,12 @@ mesh specified using blockMesh only
 **serial run**
 - blockMesh 
 - pimpleFoam 
-  
+- touch open.foam
+
 **parallel run**
 - blockMesh
 - decomposePar
 - mpirun -np 6 pimpleFoam -parallel
+- reconstructPar
+- touch open.foam
 
